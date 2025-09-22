@@ -1,0 +1,8 @@
+<h1>{{title}}</h1>
+<table>
+    <tr *ngFor="let ticket of tickets">
+        <td>
+          id:  {{ticket.id}} Price :- {{ticket.price}} EventId- {{ticket.eventId}} - {{ticket.userId}} - {{ticket.date}} - {{ticket.validated}} - {{ticket.description}}
+            </td>
+    </tr>
+</table>
